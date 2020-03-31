@@ -119,8 +119,8 @@ FFMPEG needs to be installed:
 
 If you find this useful, please cite our work as follows:
 
-@article{tebogonakampe17TMIP,
-  author = {Tebogo Nakampe,
+@article{tebogonakampe2020TMIP,
+  author = {Tebogo Nakampe, Thabo Koee,
   title = {Treatise of Medical Image Processing v020},
   journal = {TMIPv020},
   year = {2020},
