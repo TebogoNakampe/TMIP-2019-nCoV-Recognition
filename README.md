@@ -3,7 +3,7 @@
             Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/TebogoNakampe/Treatise-of-Medical-Image-Processing/blob/master/Brain.jpg">
+  <img width="460" height="300" src="https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition/blob/master/Coronavirus-CDC-645x645.jpg">
 </p>
 
 In this project, I built a model to classify brain tumours into three types based on MRI scans: Astrocytoma, Oligodendroglioma or Glioblastoma.
