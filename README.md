@@ -1,5 +1,6 @@
 # Treatise of Medical Image Processing (TMIP) v0.2.0
-# Volume 2: Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
+# Volume 2: 
+            Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/TebogoNakampe/Treatise-of-Medical-Image-Processing/blob/master/Brain.jpg">
