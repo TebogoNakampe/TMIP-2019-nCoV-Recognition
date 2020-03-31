@@ -33,14 +33,22 @@ infected patients using chest X-ray radiographs.
 <p align="center">
   <img width="460" height="300" src="https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition/blob/master/Coronavirus-CDC-645x645.jpg">
 </p>
-The main approach was to extract tumour features from 120 patients MRI scans for whom diagnosis was established by neurologis. A detailed notebook containing an exploration of several image processing methods can be found in TMIP.ipynb
-
-TMIP using FCN and Simple CNN:
-In order apply this model to new patients and generate an unbiased estimate of the model's performance, we are exploring simple convolutional neural networks and Fully Convolutional Neural Networks. However while we did manage to extract features such as tumour dimensions, side of epicentre, T1/FLAIR ratio and Enhancement Quality, so far we have been unable to extract features such as necrosis proportion or thickness of enhancing margin. 
-
-Data Preprocessing then FCN and simple CNN:
-               Simplified_FCN.ipynb
-                medical-image-segmentation.ipynb
+Machine Learning Model refers to a mathematical algorithm that is able to find hidden patterns 
+based on large number data, in this case the data is X-Ray / CT Scan imagery.  
+The model is trained on the viral pneumonia (COVID-19) dataset, one of the largest public 
+repositories of COVID-19 radiographs, containing about 200 frontal-view chest radiographs of 
+157 unique patients. Each image in the dataset was labeled by radiologists from different 
+hospitals where patients infected with COVID-19 were diagnosed. 
+Model training process consists of 2 consecutive stages to account for the partially incorrect 
+labels in the COVID-19 dataset. First, an ensemble of networks is trained on the training set to 
+predict the probability that each of the 14 pathologies is present in the image. The predictions of 
+this ensemble are used to relabel the training and tuning sets. A new ensemble of networks are 
+finally trained on this relabeled training set. 
+Without any additional supervision, the model produces heat maps that identify locations in the 
+chest radiograph that classify COVID-19 among other pathologies. 
+We thus serve the model to scientists and medical professionals through an Inference Cloud 
+application powered by Intel OpenVINO Toolkit. For faster media processing we empoy Intel 
+Open Visual Cloud architecture optimized for Intel Xeon Scalable processors. 
                 
 
 
