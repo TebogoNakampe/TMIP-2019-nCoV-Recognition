@@ -17,7 +17,11 @@ from models.models import *
 from visualization.visualize import *
 from custom.metrics import F1Score
 from data.preprocess import remove_text
-
+#Please use src by uncommenting when developing on a local machine this code is optimised for MS Azure DSVM
+#from src.models.models import *
+#from src.visualization.visualize import *
+#from src.custom.metrics import F1Score
+#from src.data.preprocess import remove_text
 def get_class_weights(histogram, class_multiplier=None):
     '''
     Computes weights for each class to be applied in the loss function during training.
