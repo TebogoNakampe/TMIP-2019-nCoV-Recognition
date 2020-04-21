@@ -1,5 +1,8 @@
 # Treatise of Medical Image Processing (TMIP) v0.2.0
-# Volume 2: 
+Platform | Build Status |
+-------- | ------------ |
+Azure | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
+
             Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
 
 <p align="center">
@@ -27,8 +30,18 @@ pneumonia. Secondly we use three different convolutional neural network architec
 infected patients using chest X-ray radiographs. 
                 
 
-    
-    
+## Environment Setup
+* Get a  [Microsoft Azure Account](https://azure.microsoft.com/en-us/)
+* [Create your Data Science Virtual Machine for Linux](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro)
+* Clone TMIP Repo
+	```bash
+	git clone https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition.git
+	cd TMIP-2019-nCoV-Recognition/TMIP_Azure/
+            pip install -r requirements.txt
+            cd ..
+            git clone https://github.com/ieee8023/covid-chestxray-dataset.git
+	```
+
 # Citation
 
 If you find this useful, please cite our work as follows:
