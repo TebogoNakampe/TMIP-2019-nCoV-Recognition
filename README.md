@@ -30,7 +30,7 @@ pneumonia. Secondly we use three different convolutional neural network architec
 infected patients using chest X-ray radiographs. 
                 
 
-## Environment Setup
+## Azure Environment Setup
 * Get a  [Microsoft Azure Account](https://azure.microsoft.com/en-us/)
 * [Create your Data Science Virtual Machine for Linux](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro)
 * Clone TMIP Repo
@@ -44,7 +44,19 @@ infected patients using chest X-ray radiographs.
 	cd ..
 	git clone https://github.com/ieee8023/covid-chestxray-dataset.git
 	```
-
+## oneAPI Environment Setup
+* Request access to the  [oneAPI DevCloud ](https://software.intel.com/en-us/devcloud)
+* Clone TMIP Repo
+	```bash
+	git clone https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition.git
+	cd TMIP-2019-nCoV-Recognition/TMIP_oneAPI/
+	pip install -r requirements.txt
+	```
+* Get Data
+	```bash
+	cd ..
+	git clone https://github.com/ieee8023/covid-chestxray-dataset.git
+	```
 # Citation
 
 If you find this useful, please cite our work as follows:
