@@ -38,13 +38,11 @@ infected patients using chest X-ray radiographs.
 	git clone https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition.git
 	cd TMIP-2019-nCoV-Recognition/TMIP_Azure/
 	pip install -r requirements.txt
-	cd ..
-        git clone https://github.com/ieee8023/covid-chestxray-dataset.git
 	```
 * Get Data
 	```bash
 	cd ..
-        git clone https://github.com/ieee8023/covid-chestxray-dataset.git
+	git clone https://github.com/ieee8023/covid-chestxray-dataset.git
 	```
 
 # Citation
