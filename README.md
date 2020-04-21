@@ -2,6 +2,7 @@
 Platform | Build Status |
 -------- | ------------ |
 Azure | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
+oneAPI | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
 
             Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
 
