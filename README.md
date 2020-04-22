@@ -45,6 +45,11 @@ infected patients using chest X-ray radiographs.
 	cd ..
 	bash tmip_data.sh
 	```
+* Preprocess Data
+	```bash
+	cd TMIP_Azure/
+	bash tmip_preprocess.sh
+	```
 ## oneAPI Environment Setup
 * Request access to the  [oneAPI DevCloud ](https://software.intel.com/en-us/devcloud)
 * Clone TMIP Repo
@@ -57,6 +62,11 @@ infected patients using chest X-ray radiographs.
 	```bash
 	cd ..
 	bash tmip_data.sh
+	```
+* Preprocess Data
+	```bash
+	cd TMIP_Azure/
+	bash tmip_preprocess.sh
 	```
 # Citation
 
