@@ -4,7 +4,7 @@ Platform | Build Status |
 Azure DSVM | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
 oneAPI DevCloud| [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
 
-            Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) image analysis.
+            Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) & X-Ray image analysis.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition/blob/master/mini_blob.jpeg">
