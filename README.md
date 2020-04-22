@@ -43,7 +43,7 @@ infected patients using chest X-ray radiographs.
 * Get Data
 	```bash
 	cd ..
-	git clone https://github.com/ieee8023/covid-chestxray-dataset.git
+	bash tmip_data.sh
 	```
 ## oneAPI Environment Setup
 * Request access to the  [oneAPI DevCloud ](https://software.intel.com/en-us/devcloud)
@@ -56,7 +56,7 @@ infected patients using chest X-ray radiographs.
 * Get Data
 	```bash
 	cd ..
-	git clone https://github.com/ieee8023/covid-chestxray-dataset.git
+	bash tmip_data.sh
 	```
 # Citation
 
