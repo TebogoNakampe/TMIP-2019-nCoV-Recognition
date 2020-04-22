@@ -50,6 +50,10 @@ infected patients using chest X-ray radiographs.
 	cd TMIP_Azure/
 	bash tmip_preprocess.sh
 	```
+* Train ML Model
+	```bash
+	bash tmip_train.sh
+	```
 ## oneAPI Environment Setup
 * Request access to the  [oneAPI DevCloud ](https://software.intel.com/en-us/devcloud)
 * Clone TMIP Repo
@@ -67,6 +71,11 @@ infected patients using chest X-ray radiographs.
 	```bash
 	cd TMIP_Azure/
 	bash tmip_preprocess.sh
+	```
+* Train ML Model
+	```bash
+	qsub -I -l walltime=24:00:00
+	qsub -l nodes=4:gpu:ppn=2 -l walltime=24:00:00 -d . tmip.sh
 	```
 # Citation
 
