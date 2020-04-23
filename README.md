@@ -44,8 +44,8 @@ infected patients using chest X-ray radiographs.
 	```bash
 	cd ..
 	bash tmip_data.sh
-	find "$(cd ..; pwd)" -name "rsna-data" 
-	find "$(cd ..; pwd)" -name "covid-chestxray-dataset" 
+	find "$(cd ..; pwd)" -name "rsna-data" #Copy the output to the config.yml
+	find "$(cd ..; pwd)" -name "covid-chestxray-dataset" #Copy the output to the config.yml
 	
 	```
 * Preprocess Data
@@ -65,10 +65,13 @@ infected patients using chest X-ray radiographs.
 	cd TMIP-2019-nCoV-Recognition/TMIP_oneAPI/
 	pip install -r requirements.txt
 	```
-* Get Data
+* Get Data and set Path to "rsna-data" and "covid-chestxray-dataset" in [configuration file](https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition/blob/master/TMIP_Azure/config.yml)
 	```bash
 	cd ..
 	bash tmip_data.sh
+	find "$(cd ..; pwd)" -name "rsna-data" #Copy the output to the config.yml
+	find "$(cd ..; pwd)" -name "covid-chestxray-dataset" #Copy the output to the config.yml
+	
 	```
 * Preprocess Data
 	```bash
