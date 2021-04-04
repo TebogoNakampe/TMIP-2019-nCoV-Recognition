@@ -36,7 +36,7 @@ def get_class_weights(histogram, class_multiplier=None):
     if class_multiplier is not None:
         class_weight = [class_weight[i] * class_multiplier[i] for i in range(len(histogram))]
     print("Class weights: ", class_weight)
-    return class_weight
+    return {0:class_weight[0], 1:class_weight[1]}
 
 
 def random_minority_oversample(train_set):
@@ -106,7 +106,7 @@ def train_model(cfg, data, callbacks, verbose=1):
     # Define metrics.
     covid_class_idx = test_generator.class_indices['COVID-19']   # Get index of COVID-19 class
     thresholds = 1.0 / len(cfg['DATA']['CLASSES'])      # Binary classification threshold for a class
-    metrics = ['accuracy', CategoricalAccuracy(name='accuracy'),
+    metrics = ['accuracy', CategoricalAccuracy(name='categorical_accuracy'),
                Precision(name='precision', thresholds=thresholds, class_id=covid_class_idx),
                Recall(name='recall', thresholds=thresholds, class_id=covid_class_idx),
                AUC(name='auc'),
