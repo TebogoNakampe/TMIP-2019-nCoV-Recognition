@@ -80,8 +80,7 @@ infected patients using chest X-ray radiographs.
 	```
 * Train ML Model
 	```bash
-	qsub -I -l walltime=24:00:00
-	qsub -l nodes=4:gpu:ppn=2 -l walltime=24:00:00 -d . tmip.sh
+	bash tmip.sh
 	```
 # Citation
 

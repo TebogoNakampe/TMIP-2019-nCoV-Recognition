@@ -26,7 +26,7 @@ def build_dataset(cfg):
     metadata_file_path = covid_data_path + 'metadata.csv'
     covid_df = pd.read_csv(metadata_file_path)
     covid_PA_cxrs_df = (covid_df['view'] == 'PA')
-    covid_patients_df = (covid_df['finding'] == 'COVID-19')
+    covid_patients_df = (covid_df['finding'] == 'Pneumonia/Viral/COVID-19')
 
     # Assemble filenames comprising RSNA dataset
     rsna_metadata_path = other_data_path + 'stage_2_train_labels.csv'
