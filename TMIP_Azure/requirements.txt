@@ -4,7 +4,7 @@ tqdm==4.40.2
 opencv_python==4.2.0.32
 dill==0.3.0
 scikit_image==0.15.0
-numpy==1.17.4
+numpy==1.21
 pandas==0.25.3
 pydicom==1.4.2
 imbalanced_learn==0.6.1
