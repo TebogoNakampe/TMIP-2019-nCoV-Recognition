@@ -1,7 +1,7 @@
 # Treatise of Medical Image Processing (TMIP) v0.2.0
 Platform | Build Status |
 -------- | ------------ |
-Azure DSVM | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
+AWS EC2 | [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
 oneAPI DevCloud| [![Build status](https://ci.appveyor.com/api/projects/status/swutsp1bjcc56q64/branch/master?svg=true)](https://ci.appveyor.com/project/ddiakopoulos/hand-tracking-samples/branch/master)
 
             Coronavirus (2019-nCoV infection) Recognition using Deep Neural Networks for Computer Tomography (CT) & X-Ray image analysis.
