@@ -37,10 +37,9 @@ matplotlib
 seaborn
 ```
 ## Model Selection - Experiment_Model_Selection_002
-# Model Selection Summary
-To identify the most effective model for our classification task, we evaluated several algorithms including Logistic Regression, Random Forest, and XGBoost. Each model was trained on the training dataset and assessed on a validation set using key metrics such as accuracy, precision, recall, and F1-score.
+To identify the most effective model for our prediction task, we evaluated several algorithms including MLP (Neural Net) and KNN. Each model was trained on the training dataset and assessed on a validation set using key metrics such as accuracy, precision, recall, and F1-score.
 
-Despite tuning and optimizing the Random Forest and XGBoost models, the K-Nearest Neighbors (KNN) classifier consistently demonstrated superior performance on the validation data in terms of predictive accuracy and balanced precision/recall.
+Despite tuning and optimizing the MLP (Neural Net), the K-Nearest Neighbors (KNN) classifier consistently demonstrated superior performance on the validation data in terms of predictive accuracy and balanced precision/recall.
 
 The selected KNN model was further fine-tuned using hyperparameter optimization (e.g., number of neighbors, distance metrics) to enhance its robustness and generalization capability.
 
